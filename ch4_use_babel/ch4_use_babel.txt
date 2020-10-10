@@ -1,0 +1,63 @@
+PS C:\Users\Han\Desktop\code\refactoring-2e\ch4_use_babel> npm run test
+
+> mocha-example@1.0.0 test C:\Users\Han\Desktop\code\refactoring-2e\ch4_use_babel
+> mocha --reporter mochawesome
+
+
+
+  province
+    √ shortfall
+    √ profit
+
+  province
+    √ beforeEach - shortfall
+    √ beforeEach - profit
+    √ change production
+    √ zero demand
+    √ negative demand
+    √ empty string demand
+
+  no producers
+    √ shortfall
+    √ profit
+
+
+  10 passing (29ms)
+
+[mochawesome] Report JSON saved to C:\Users\Han\Desktop\code\refactoring-2e\ch4_use_babel\mochawesome-report\mochawesome.json
+
+[mochawesome] Report HTML saved to C:\Users\Han\Desktop\code\refactoring-2e\ch4_use_babel\mochawesome-report\mochawesome.html
+
+PS C:\Users\Han\Desktop\code\refactoring-2e\ch4_use_babel> npm run test2
+
+> mocha-example@1.0.0 test2 C:\Users\Han\Desktop\code\refactoring-2e\ch4_use_babel
+> nyc --reporter=html --reporter=text mocha
+
+
+
+  province
+    √ shortfall
+    √ profit
+
+  province
+    √ beforeEach - shortfall
+    √ beforeEach - profit
+    √ change production
+    √ zero demand
+    √ negative demand
+    √ empty string demand
+
+  no producers
+    √ shortfall
+    √ profit
+
+
+  10 passing (48ms)
+
+------------|---------|----------|---------|---------|-------------------
+File        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+------------|---------|----------|---------|---------|-------------------
+All files   |   90.91 |       50 |      84 |    90.7 |
+ example.js |   90.91 |       50 |      84 |    90.7 | 32,42,73,76
+------------|---------|----------|---------|---------|-------------------
+PS C:\Users\Han\Desktop\code\refactoring-2e\ch4_use_babel>
