@@ -1,0 +1,61 @@
+﻿
+
+PS F:\info_2020\Javascript\todomvc-vanilla-es6-modules-master> cd ../ch1
+PS F:\info_2020\Javascript\ch1> lite-server
+Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+** browser-sync config **
+{
+  injectChanges: false,
+  files: [ './**/*.{html,htm,css,js}' ],
+  watchOptions: { ignored: 'node_modules' },
+  server: { baseDir: './', middleware: [ [Function], [Function] ] }
+}
+[Browsersync] Access URLs:
+ ------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.0.4:3000
+ ------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ ------------------------------------
+[Browsersync] Serving files from: ./
+[Browsersync] Watching files...
+20.04.23 16:46:56 404 GET /index.html
+20.04.23 16:47:15 200 GET /ch1_SEPARATED_INTO_TWO_FILES.html
+20.04.23 16:47:15 200 GET /app.js
+20.04.23 16:47:15 200 GET /statement.js
+20.04.23 16:47:15 200 GET /createStatementData.js
+20.04.23 16:50:10 304 GET /ch1_SEPARATED_INTO_TWO_FILES.html
+20.04.23 16:50:10 304 GET /app.js
+20.04.23 16:50:10 304 GET /statement.js
+20.04.23 16:50:10 304 GET /createStatementData.js
+[Browsersync] Reloading Browsers...
+20.04.23 16:50:48 404 GET /index.html
+20.04.23 16:51:23 304 GET /ch1_SEPARATED_INTO_TWO_FILES.html
+20.04.23 16:51:23 304 GET /app.js
+20.04.23 16:51:23 200 GET /statement.js
+20.04.23 16:51:23 304 GET /createStatementData.js
+20.04.23 16:51:30 304 GET /ch1_SEPARATED_INTO_TWO_FILES.html
+20.04.23 16:51:30 304 GET /app.js
+20.04.23 16:51:30 304 GET /statement.js
+20.04.23 16:51:30 304 GET /createStatementData.js
+20.04.23 16:51:36 200 GET /ch1_SEPARATED_INTO_TWO_FILES.html
+20.04.23 16:51:36 200 GET /app.js
+20.04.23 16:51:36 200 GET /statement.js
+20.04.23 16:51:36 200 GET /createStatementData.js
+20.04.23 16:51:36 404 GET /favicon.ico
+[Browsersync] Reloading Browsers...
+20.04.23 16:52:01 304 GET /ch1_SEPARATED_INTO_TWO_FILES.html
+20.04.23 16:52:01 304 GET /app.js
+20.04.23 16:52:01 200 GET /statement.js
+20.04.23 16:52:01 304 GET /createStatementData.js
+20.04.23 16:52:10 304 GET /ch1_SEPARATED_INTO_TWO_FILES.html
+20.04.23 16:52:10 304 GET /app.js
+20.04.23 16:52:10 200 GET /statement.js
+20.04.23 16:52:10 304 GET /createStatementData.js
+PS F:\info_2020\Javascript\ch1>
+
+
+
+browser : http://localhost:3000/ch1_SEPARATED_INTO_TWO_FILES.html
+

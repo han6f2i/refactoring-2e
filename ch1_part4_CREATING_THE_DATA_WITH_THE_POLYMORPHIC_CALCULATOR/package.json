@@ -1,0 +1,13 @@
+{
+  "name": "statement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "statement.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules ./statement.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

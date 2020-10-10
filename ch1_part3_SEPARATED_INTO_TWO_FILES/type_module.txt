@@ -1,0 +1,19 @@
+
+add "type": "module" to package.json
+add "--experimental-modules" flag to the node call
+
+https://stackoverflow.com/questions/58384179/syntaxerror-cannot-use-import-statement-outside-a-module
+
+
+SyntaxError: Cannot use import statement outside a module
+
+
+According to the official doc (https://nodejs.org/api/esm.html#esm_code_import_code_statements):
+
+import statements are permitted only in ES modules. For similar functionality in CommonJS, see import().
+
+To make Node treat your file as a ES module you need to (https://nodejs.org/api/esm.html#esm_enabling):
+
+add "type": "module" to package.json
+add "--experimental-modules" flag to the node call
+
